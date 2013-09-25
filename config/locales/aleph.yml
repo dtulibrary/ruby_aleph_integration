@@ -1,0 +1,28 @@
+en:
+  aleph:
+    item:
+      'sub-library':
+        'DTV': 'DTU Library Lyngby'
+        'BAL': 'DTU Library Ballerup'
+        'BIC': 'BIO'
+        'DTVHO': 'Send to my address'
+      'collection':
+        'HB': 'Reference collection'
+        'HBX': 'Internal reference'
+        'HB2': 'Abstracts'
+        'INT': 'Internal use'
+        'MAG': 'Closed stacks'
+        'MAG2': 'Closed stacks (2)'
+        'STACK': 'Open Stacks'
+        'LB': 'Textbook collection'
+        'TEK': 'Teknologi historisk samling'
+        'IB': 'Industriforeningens Bibliotek'
+        'TB': 'Teknisk Bibliotek'
+        'LL': 'Learning Lab'
+        'HIST': 'Historie'
+        'EKSAM': 'Eksamensprojekt'
+        'PER': 'Periodicum'
+        'REP': 'Report'
+        '501': 'Bygning 501'
+        'DRC': 'Dansk Rum Center'
+
