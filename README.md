@@ -65,7 +65,7 @@ User lookup
   User object must respond to a number of well defined functions
     id
       - Id number of the user
-    address
+    address_lines
       - Array of address lines
     email
       - E-mail address of user (string value)

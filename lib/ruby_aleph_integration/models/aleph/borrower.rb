@@ -299,10 +299,6 @@ module Aleph
       if user.respond_to? :aleph_home_library
         z303['z303-home-library'] = user.aleph_home_library
       end
-      if user.respond_to? :aleph_bor_card_id
-        z303['bor-card'] = user.aleph_bor_card_id if user.aleph_bor_card_id
-        z303['bor-card-pin'] = random_pin
-      end
       z304 = {
         'z304-address-type' => '01',
         'z304-zip' => '',
@@ -313,7 +309,7 @@ module Aleph
         z303['z304-telephone'] = user.telephone
       end
       n = 0
-      user.address.each do |a|
+      user.address_lines.each do |a|
         if n <= 4
           field = format("z304-address-%d", n)
           z304[field] = a

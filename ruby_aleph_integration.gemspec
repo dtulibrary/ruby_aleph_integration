@@ -2,7 +2,7 @@
 require 'rake'
 Gem::Specification.new do |spec|
   spec.name = 'ruby_aleph_integration'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.authors = [ 'Morten Rønne' ]
   spec.add_runtime_dependency ('httparty')
   spec.add_runtime_dependency ('nokogiri')
